@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2019",                // versão moderna do JS
+    "module": "commonjs",              // deixa o require funcionando
+    "esModuleInterop": true,           // facilita imports
+    "strict": true,                    // boas práticas
+    "skipLibCheck": true,              // ignora libs antigas
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"]                  // <<< IMPORTANTE: habilita require()
+  }
+}
