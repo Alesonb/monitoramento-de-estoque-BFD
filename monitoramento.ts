@@ -244,7 +244,7 @@ function cadastrarProduto() {
         }
     }
 
-    const limiteMinimo = 2;
+    const limiteMinimo = 5;
     const novo = new Produto(codigo, nome, preco, 0, limiteMinimo);
     estoque.cadastrarProduto(novo);
     estoque.registrarEntrada(codigo, quantidade);
